@@ -27,6 +27,10 @@ const Nav = () =>{
 <div className="nav-links-container">
 
 
+<Link className="nav-link" to= '/universal'>
+       CHECK YOUR STATS
+        </Link>
+
 
    { currentUser ? (
        <Link className="nav-link" to= '/badmmr'>

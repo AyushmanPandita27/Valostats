@@ -24,7 +24,7 @@ const AkhMatch = () =>{
     
     const navigate = useNavigate();
 
-    let ifNoData = <h1>RUMKO RUMKO BHAAMI DIMKHATA HU! HUE HUE!! </h1>;
+    let ifNoData = <h1>FETCHING OPAC DATA...</h1>;
     if(match.length>0){
         ifNoData =  
         <div className="categories-container">

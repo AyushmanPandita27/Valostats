@@ -17,6 +17,7 @@ import AyuMatch from './details/matchInfo/ayushman.component';
 import AksMatch from './details/matchInfo/akshay.component';
 import DanaMatch from './details/matchInfo/danamatch.component';
 import AkhMatch from './details/matchInfo/akhilmatch.component';
+import Universal from './details/universalInfo/universal';
 const App = () => { 
  
   return (
@@ -30,6 +31,7 @@ const App = () => {
        <Route path = 'weapons' element = {<Weapon/>} />
        <Route path = 'maps' element = {<Maps/>} />
        <Route path = 'buddy' element = {<Buddy/>} />
+        <Route path = 'universal' element = {<Universal/>} />
        <Route path = 'mmr' element = {<Mmr/>} />
        <Route path = 'badmmr' element = {<Bmmr/>} />
        <Route path = 'danmmr' element = {<Cmmr/>} />
